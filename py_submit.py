@@ -1,10 +1,10 @@
 import os
 import numpy as np
 
-def mkdir_p(dir):
+def mkdir_p(dire:str):
     '''make a directory (dir) if it doesn't exist'''
     if not os.path.exists(dir):
-        os.mkdir(dir)
+        os.mkdir(dire)
 
 job_directory = f"{os.getcwd()}/data"
 
